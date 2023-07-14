@@ -1,10 +1,17 @@
+/*
+* Copyright(C) 2023 Luvina Software Company
+* Employee.java, July 14, 2023 dunghm
+*/
 package com.dunghm.employee.model;
 
 import jakarta.persistence.*;
 import lombok.Data;
-
 import java.io.Serializable;
 
+/**
+* Tao đối tượng entity tương ứng với 1 bảng trong database
+* @author DungHM
+*/
 @Entity
 @Table(name = "employees")
 @Data

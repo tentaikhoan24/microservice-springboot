@@ -1,8 +1,16 @@
+/*
+* Copyright(C) 2023 Luvina Software Company
+* Account.java, July 14, 2023 dunghm
+*/
 package com.dunghm.loginserver.model;
 
 import jakarta.persistence.*;
 import lombok.Data;
 
+/**
+* Tạo đối tượng entity tương ứng với 1 bảng trong database
+* @author DungHM
+*/
 @Entity
 @Table(name = "accounts")
 @Data
