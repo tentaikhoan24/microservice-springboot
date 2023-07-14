@@ -27,7 +27,6 @@ public class AuthController {
 
     @PostMapping("/login")
     public ResponseEntity<?> login(@RequestBody Account account) {
-
         try {
             List<Account> list = authService.getList();
             for (Account acc : list) {

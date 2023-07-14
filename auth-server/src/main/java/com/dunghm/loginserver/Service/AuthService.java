@@ -12,9 +12,8 @@ public class AuthService {
     @Autowired
     AuthRepository authRepository;
 
-    public Account register(Account account) {
+    public void register(Account account) {
         authRepository.save(account);
-        return account;
     }
 
     public Account getById(Long id) {
